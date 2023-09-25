@@ -16,10 +16,10 @@ public class Termostato {
         //Creo el Scanner
         Scanner teclado = new Scanner(System.in);
         //Pido los datos por Scanner al usuario
-        System.out.print("Que grados Centigrados quieres convertir en "
+        System.out.print("Que grados Centígrados quieres convertir en "
                 + "Fahrenheit: ");
         double cen = teclado.nextDouble();
-        //POngo como constantes los nuúmeros que no cambian en la secuencia
+        //Pongo como constantes los números que no cambian en la secuencia
         final int NUM1 = 9, NUM2 = 5, NUM3 = 32;
         double resultado = (cen * NUM1 / NUM2) + NUM3;
         //Imprimo el resultado por pantalla
